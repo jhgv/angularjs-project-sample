@@ -1,0 +1,11 @@
+<form>
+    <label for="title"> Title </label>
+    <input type="text" id="title" ng-model="$ctrl.article.title">
+    <br />
+    <br />
+    <label for="text"> Text </label>
+    <textarea id="text" ng-model="$ctrl.article.text"></textarea>
+    <br />
+    <br />
+    <button ng-click="$ctrl.create()">Submit</button>
+</form>

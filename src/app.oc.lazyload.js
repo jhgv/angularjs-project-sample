@@ -9,7 +9,8 @@
                         name: 'Article',
                         files: [
                             'src/article/ArticlesController.js',
-                            'src/article/components/list-article/ListArticleController.js'
+                            'src/article/components/article-list/ArticleListController.js',
+                            'src/article/components/article-form/ArticleForm.js'
                         ],
                     },
                     {
